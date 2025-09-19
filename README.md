@@ -1,4 +1,4 @@
-BinanceAutomation is a Python trading automation toolkit for running crypto derivatives strategies across Binance, Bybit, Gate.io, Phemex, and more. It wraps exchange REST/WebSocket APIs in reusable clients, used for running and trading autonomously.
+TradingAutomationPub is a Python trading automation toolkit for running crypto derivatives strategies across Binance, Bybit, Gate.io, Phemex, and more. It wraps exchange REST/WebSocket APIs in reusable clients, used for running and trading autonomously.
 
 ### Quick Start
 ```bash
