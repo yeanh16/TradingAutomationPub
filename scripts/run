@@ -1,0 +1,6 @@
+#!/bin/bash
+cd "$(dirname "$0")/.."
+kill -9 $(pgrep 'AggFuturesMain' -f)
+. ~/.venvs/venv312/bin/activate
+export PYTHONPATH="${PYTHONPATH}:$(pwd)/src"
+nohup python3 -m apps.AggFuturesMain &

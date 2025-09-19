@@ -1,0 +1,6 @@
+#!/bin/bash
+
+kill -9 $(pgrep 'bash check' -f)
+kill -9 $(pgrep 'bash run' -f)
+kill -9 $(pgrep 'bash transition-strats' -f)
+nohup bash check &

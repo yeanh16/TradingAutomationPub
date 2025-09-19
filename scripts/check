@@ -1,0 +1,11 @@
+#!/bin/bash
+
+while [$1 == $1]
+do
+	if ps aux | grep -q 'apps.AggFuturesMain'; then
+		continue
+	else
+		bash "$(dirname "$0")/run"
+	fi
+	sleep 60
+done &

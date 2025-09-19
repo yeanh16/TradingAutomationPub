@@ -1,0 +1,5 @@
+#!/bin/bash
+
+kill -9 $(pgrep 'python3 AggFuturesMain.py' -f)
+. ~/.venvs/venv312/bin/activate
+nohup python3 AggFuturesMain.py -x &

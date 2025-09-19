@@ -1,0 +1,4 @@
+#!/bin/bash
+
+kill -9 $(pgrep 'python3 TwitterStream.py' -f)
+nohup python3 TwitterStream.py &
