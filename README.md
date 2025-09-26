@@ -1,9 +1,9 @@
 TradingAutomationPub is a Python trading automation toolkit for running crypto derivatives strategies across Binance, Bybit, Gate.io, Phemex, and more. It wraps exchange REST/WebSocket APIs in reusable clients, used for running and trading autonomously.
 
 Features:
-Discord integration for alerts to be sent directly to the Discord app on mobile
-Twitter/X news and tweets data stream for monitoring current events that could impact the cryptocurrency markets
-SQL database for logging trades made
+  - Discord integration for alerts to be sent directly to the Discord app on mobile 
+  - Twitter/X news and tweets data stream for monitoring current events that could impact the cryptocurrency markets
+  - SQL database for logging trades made
 
 ### Quick Start
 ```bash
